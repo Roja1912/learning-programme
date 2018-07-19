@@ -1,0 +1,46 @@
+<html>
+   
+	
+		<body>
+		<p id="demo"></p>	
+
+	</body>
+	<script>
+	
+	
+    		var s="aabbeckc";
+			var a=s.split("");
+			var result="";
+			var count=0;
+
+		
+  for (var x = 0; x < s.length; x++) {
+    count = 0;
+ 
+    for (var y = 0; y < s.length; y++) 
+    {
+      if (a[x] === a[y]) {
+        count+= 1;
+      }
+    }
+
+ 
+    if (count < 2) {
+      result = a[x];
+      break;
+    }
+}
+  
+ alert(result);
+	// }
+
+
+
+
+			
+  // document.getElementById("demo").innerHTML = result;
+  
+				
+		</script>
+	
+</html>
