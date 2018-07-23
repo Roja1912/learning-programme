@@ -1,0 +1,32 @@
+body
+{
+	display:flex;	
+	align-items: center;
+	justify-content: center;
+	
+
+
+
+}
+.login-page{
+	color: black;
+	background-color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border:2px solid red;
+	box-shadow: 6px 2px 14px 0px #d9d9d9;
+	height: 607px;
+	width:300px;
+	max-height: 607px;
+	max-width: 300px: 
+
+
+
+}
+.login-page>.name{
+	margin:5px;
+}
+
+
