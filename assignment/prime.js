@@ -1,58 +1,93 @@
 window.onload=function(){
-    var n=document.getElementById("num");
-    var button=document.getElementById("btn");
-    var msg1=document.getElementById("msg1"); 
-     var msg2=document.getElementById("msg2");
-     var msg3=document.getElementById("msg3");
-    button.onclick=function(){
-      var i,j,flag=0;
-      console.log(msg1);
-      var c=n.value;
-           c--;
-     for(i=c;i<n.value;i--){
-            flag=0;
-       for(j=1;j<=i;j++){
-        
-             if(i%j==0){
-                 flag++;
-             }
-            
-        } 
-            if(flag==2){
-              msg1.innerHTML=i+" is a left side prime number";
-              break;
+	var num=document.getElementById("number");
+	var button=document.getElementById("but");
+	var flag=0;
+	
+	button.onclick=function(){
+		var n=parseInt(num.value);
+		var m=parseInt(num.value);
+    var k=parseInt(num.value);
+	  
+
+
+		n=n+1;
+    console.log(n);
+    
+		for(var j=n;j>3;j++)
+		{
+      console.log(j);
+	
+             for(var i=2; i<j;i++)
+              {
+                  // condition for nonprime number
+                  if(j%i==0)
+                  {
+                    flag++;
+                     break;
+                  } 
+                  else{
+                    flag=0
+                  }  
+              }
+
+                if (flag==0){
+                alert(j);
+                break;
+              }
+		}
+		
+
+
+		m=m-1;
+    console.log(m);
+        for(var j=m;j>3;j--)
+        {
+
+             for(var i=2; i<j; i++)
+              {
+                  // condition for nonprime number
+                  if(j%i==0)
+                  {
+                    flag++;
+                     break;
+                  }   
+                  else{
+                    flag=0;
+                  }
+              }
+
+                if (flag==0){
+                alert(j);
+                break;
             }
-      }
-    var b=n.value;
-       b++;
- for(i=b;i>n.value;i++){
-        flag=0;
-   for(j=1;j<=i;j++){
-    
-         if(i%j==0){
-             flag++;
-         }
-        
-    } 
-        if(flag==2){
-           msg2.innerHTML=i+" is a right side prime number";
-          break; 
-         }
-     }
-       
-      var d=n.value;
-        flag=0;
-    for(j=1;j<=d;j++){
-          if(d%j==0){
-              flag++;
-          }
-     } 
-         if(flag==2){
-             msg3.innerHTML=d+"   is a prime number";
-         }else{
-             msg3.innerHTML= d+"   is not a prime number";
-         }
-    
-      
-  } 
+        }
+
+           console.log(n);
+         for(var i=2; i<k; i++)
+              {
+                  // condition for nonprime number
+                  if(k%i==0)
+                  {
+                    flag++;
+                     break;
+                  }   
+                  else{
+                    flag=0;
+                  }
+              }
+
+                if (flag==0){
+                  
+                alert("prime number");
+
+
+               
+  }
+
+
+
+
+      	
+	}
+
 }
