@@ -1,0 +1,10 @@
+body
+{
+	background:linear-gradient(powderblue,white);
+	
+
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
