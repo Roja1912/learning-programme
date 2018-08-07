@@ -1,0 +1,59 @@
+
+
+
+body
+{
+	background:linear-gradient(white,blue);
+	
+
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	
+}
+.div1
+{
+	color: black;
+	font-size: 70px;
+	font: cursive;
+	font-family:  Verdana;
+	
+
+
+}
+#but
+{
+	background-color: yellow;
+	border-radius: 10px;
+	width: 170px;
+	font-size: 30px;
+	border:3px solid black;
+
+}
+#number
+{
+	width: 370px;
+	height: 50px;
+	border-radius: 10px;
+	border:3px solid black;
+	font-size: 30px;
+
+
+}
+
+#layout{
+	border: 3px solid black;
+	width: 500px;
+    height: 400px;
+    padding:15px;
+
+}
+#dem{
+	position:absolute;
+	right:400px;
+	
+
+
+}
+

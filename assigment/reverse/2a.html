@@ -1,0 +1,29 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="2a.css">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+<body background="blue">
+	
+
+	<p id="demo">the reverse string</p>
+
+	 <script>
+	 	var s="12345"
+	 	function reverseString(s) {
+	 		var splitString=s.split("");
+	 		var reverseString=splitString.reverse();
+	 		var joinString=reverseString.join("");
+	 		return joinString;
+
+	 	}
+	
+
+
+	 </script>
+	 <button class="btn btn-primary" type="submit"
+	 onclick=document.getElementById("demo").innerHTML=reverseString(s)>click</button>
+
+	</body>
+	</html>
+

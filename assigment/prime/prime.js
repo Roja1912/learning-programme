@@ -4,6 +4,10 @@ window.onload=function(){
 	var flag=0;
 	
 	button.onclick=function(){
+
+    var left=document.getElementById("demo");
+    var right=document.getElementById("demo1");
+    var middle=document.getElementById("demo2");
 		var n=parseInt(num.value);
 		var m=parseInt(num.value);
     var k=parseInt(num.value);
@@ -31,7 +35,7 @@ window.onload=function(){
               }
 
                 if (flag==0){
-                alert(j);
+                left.innerHTML=j;
                 break;
               }
 		}
@@ -57,7 +61,7 @@ window.onload=function(){
               }
 
                 if (flag==0){
-                alert(j);
+                right.innerHTML=j;
                 break;
             }
         }
@@ -77,8 +81,7 @@ window.onload=function(){
               }
 
                 if (flag==0){
-                  
-                alert("prime number");
+                  middle.innerHTML="prime numner";
 
 
                

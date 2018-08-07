@@ -1,7 +1,10 @@
 window.onload= function(){
 
+	
+
 	var input=document.getElementById("letter");
 var button=document.getElementById("btn");
+var left=document.getElementById("container");
 function convertNumLetters(input) {
 
 var inputlength = input.length;
@@ -37,7 +40,7 @@ default: phonenumber+=character;
    }
 }
 
-alert(phonenumber);
+left.innerHTML=phonenumber;
 }
 button.onclick= function(){
 

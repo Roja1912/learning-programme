@@ -1,0 +1,36 @@
+body {
+background-image:url("phone.jpg");
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+flex-direction: column;
+background-repeat: no-repeat;
+	background-position:top;
+	background-size:cover;
+}
+#letter{
+	width: 470px;
+	height: 73px;
+	 background-color: 800000;
+	border-radius: 30px;
+	border-color: black;
+	font-size: 43px;
+	text-align: center;
+
+}
+#btn{
+	width:97px;
+  height: 43px;
+  background-color: 800000;
+  border-radius: 30px;
+  border-color: black;
+
+}
+#container{
+	position:absolute;
+	bottom:217px;
+	color:yellow;
+	font-size: 57px;
+}

@@ -1,0 +1,67 @@
+body{
+
+
+	display:flex;
+	align-items: center;
+	
+	height: 100vh;
+	flex-direction: column;
+	
+}
+	
+
+
+.dem{
+	display: flex;
+	flex-direction: column;
+
+border:3px solid Navy;
+border-radius: 27px;
+	height:597px;
+	width:470px;
+	padding: 30px;
+	align-items: center;
+	align-content: center;
+	background-color: Tomato;
+	box-shadow: 2px 2px Navy;
+
+
+}
+#demo2{
+	width: 157px;
+	height: 27px;
+	font-size: 27px;
+}
+#r10{
+	width: 27px;
+	height: 27px;
+}
+#r5{
+	width: 27px;
+	height: 27px;
+}
+#r2{
+	width: 27px;
+	height: 27px;
+}
+#r1{
+	width: 27px;
+	height: 27px;
+}
+#btn{
+	width: 87px;
+	height:27px;
+}
+#demo{
+position: absolute;
+right: 947px;
+bottom:107px;
+border:3px solid Navy;
+padding: 3px;
+font-size: 27px;
+background-color: Tomato;
+
+
+
+
+}

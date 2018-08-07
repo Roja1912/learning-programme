@@ -7,7 +7,7 @@ window.onload=function(){
      
       var n= date.getDay();
      
-      document.write(day[n]);
+      document.getElementById("demo").innerHTML=day[n];
 
     }
 }    

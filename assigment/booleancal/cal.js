@@ -8,13 +8,13 @@ window.onload=function(){
 	var output = document.getElementById("output");
 
 	and.addEventListener("click", function(){
-		var result = (input1.value & input2.value);
+		var result = (input1.value && input2.value);
 		output.innerHTML = result;
 	});
 
 
 	or.addEventListener("click", function(){
-		var result = (input1.value | input2.value);
+		var result = (input1.value || input2.value);
 		output.innerHTML = result;
 	});
 

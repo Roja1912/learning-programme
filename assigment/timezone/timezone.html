@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="timezone.css">
+<body style="background: radial-gradient(red, white, red)";>
+	<center>
+<h2 id="me">Time Zone</h2>
+
+<button id="btn" onclick="myFunction()">CHECK</button>
+
+<p id="demo" style="font-size: 37px;"></p>
+
+		
+<script>
+function myFunction() {
+    var d = new Date();
+    var n = d.getTimezoneOffset();
+    document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+	</center>
+	
+</body>
+</html>
