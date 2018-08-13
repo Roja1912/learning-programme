@@ -1,0 +1,20 @@
+<div class="demo1">
+    <h1>calculator</h1>
+    
+
+<input class="demo2" [(ngModel)]='num1' type="number" name="num1" placeholder="enter num1"><br>
+<input class="demo2"[(ngModel)]='num2' type="number" name="num2" placeholder="enter num2"><br>
+
+<br>
+
+
+<div class="demo">
+<button class="demo3"(click)="cal_Add()">+</button>
+<button class="demo3" (click)="cal_Sub()">-</button><br><br>
+<button class="demo3"(click)="cal_Multi()">*</button>
+<button class="demo3"(click)="cal_Div()">/</button>
+
+<h2 style="background-color:orange;width:65px;height:40px;border:1px solid black;margin:4px;">{{result}}</h2>
+</div>
+</div>
+

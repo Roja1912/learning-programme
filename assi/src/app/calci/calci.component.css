@@ -1,0 +1,39 @@
+.demo1{
+display:flex;
+justify-content:center;
+align-items: center;
+flex-direction:column;
+border:2px solid black;
+margin-left:750px;
+margin-right: 750px;
+margin-bottom: 800px;
+background-color: aquamarine;
+}
+.demo{
+
+
+font-size: 17px;
+width:67px;
+height: 70px;
+
+
+}
+.demo2{
+    width:167px;
+    height:28px;
+     background-color: grey;
+     font-size: 25px;
+     border:2px solid black;
+
+}
+.demo3{
+    width:27px;
+    height:27px;
+}
+.hi
+{
+    border:2px solid px;
+    width:20px;
+    height:20px;
+    
+}
