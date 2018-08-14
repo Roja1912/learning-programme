@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {ReactiveForms} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CalciComponent } from './calci/calci.component';
@@ -14,7 +14,7 @@ import { CalciComponent } from './calci/calci.component';
   imports: [
     BrowserModule,
     FormsModule,
-    ReactiveForms
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
