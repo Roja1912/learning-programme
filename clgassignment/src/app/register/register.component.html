@@ -1,0 +1,26 @@
+<div class="demo1">
+  <form class="example-form">
+    <h1>Academic Details</h1>
+      <!-- <mat-form-field class="example-full-width">
+          <input matInput  disabled value="Academic Details"> 
+        </mat-form-field> -->
+
+<table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="Tenth Marks" (keyup)="onKeyTenthMarks($event)" value={{tenthmarks}}>
+    </mat-form-field></td></tr>
+    <tr><td><mat-form-field class="example-full-width">
+      <input matInput placeholder=" PUC Marks" (keyup)="onKeyPucMarks($event)" value={{pucmarks}}>
+    </mat-form-field></td>
+  </tr>
+  <mat-checkbox>Graduate</mat-checkbox>
+  <mat-checkbox>Post Graduate</mat-checkbox>
+
+
+</table>
+  <button class="but" mat-flat-button color="primary" (click)="next()">Previous</button>
+ 
+
+
+</form>
+</div>

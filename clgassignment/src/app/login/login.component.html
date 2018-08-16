@@ -1,0 +1,62 @@
+<div class="header" > <mat-toolbar color="primary">
+    NEW HORIZON COLLEGE OF ENGINEERING</mat-toolbar></div>
+
+<div class="demo">
+<form class="example-form">
+  <h1>Personal Details</h1>
+  <!-- <mat-form-field class="example-full-width">
+    <input matInput  disabled value="NHCE"> 
+  </mat-form-field> -->
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="First name" (keyup)="onKeyFirstName($event)" value={{firstname}}>
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder=" Last Name " (keyup)="onKeyLastName($event)" value={{lastname}}>
+    </mat-form-field></td>
+  </tr></table>
+
+  <p>
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="Address1" (keyup)="onKeyAddress1($event)" value={{address1}}></textarea>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="Address 2" (keyup)="onKeyAddress2($event)" value={{address2}}></textarea>
+    </mat-form-field>
+  </p>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="City" (keyup)="onKeyCity($event)" value={{city}}>
+    </mat-form-field></td>
+    <!-- <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="State" (keyup)="onKeyState($event)" value={{state}}>
+    </mat-form-field></td> -->
+    <!-- <td><mat-form-field class="example-full-width">
+      <input matInput #postalCode maxlength="5" placeholder="Postal Code" (keyup)="onKeyPostalCode($event)" value={{postalcode}}>
+      <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
+    </mat-form-field></td> -->
+  </tr>
+ 
+    <mat-form-field>
+        <mat-select placeholder="state">
+          <mat-option *ngFor="let state of states" [value]="state.value">
+            {{state.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field><br>
+      <mat-radio-group>
+          <mat-radio-button value="1">Female</mat-radio-button>
+          <mat-radio-button value="2">Male</mat-radio-button>
+        </mat-radio-group>
+
+
+
+</table>
+  
+  <button class="but"mat-flat-button color="primary" (click)="next()">Next</button>
+</form>
+
+</div>
+
