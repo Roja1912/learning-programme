@@ -1,0 +1,26 @@
+<div class="demo1">
+  <form class="example-form" [formGroup]="form1">
+    <h1>Academic Details</h1>
+      <!-- <mat-form-field class="example-full-width">
+          <input matInput  disabled value="Academic Details"> 
+        </mat-form-field> -->
+
+<table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="Tenth Marks" formControlName="tenthmarks">
+    </mat-form-field></td></tr>
+    <tr><td><mat-form-field class="example-full-width">
+      <input matInput placeholder=" PUC Marks" formControlName="pucmarks">
+    </mat-form-field></td>
+  </tr>
+  <mat-checkbox value="1" formControlName="graduate">Graduate</mat-checkbox>
+  <mat-checkbox value="2" formControlName="postgraduate">Post Graduate</mat-checkbox>
+
+
+</table>
+  <button class="but" mat-flat-button color="primary" (click)="onClickBehind()">Previous</button>
+ 
+
+
+</form>
+</div>

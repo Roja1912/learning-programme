@@ -1,0 +1,2 @@
+<app-login (screenchange)="changescreen($event)" *ngIf="screen" [(data)]="formData"></app-login> 
+<app-register (screenchange)="changescreen($event)"  *ngIf="!screen" [(data)]="formData1"></app-register>
