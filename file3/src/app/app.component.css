@@ -1,0 +1,25 @@
+.demo{
+    display:flex;
+    
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 370px;
+    margin-right: 570px;
+    margin-top:47px;
+    flex-direction: column;
+    padding:18px;
+}
+.demo2{
+    margin-left: 437px;
+    margin-right: 178px;
+}
+.demo3{
+    display: flex;
+    box-shadow: 1px 1px 1px 1px white;
+    margin-left:347px;
+    margin-right:537px;
+    margin-top:47px;
+    
+    
+    font-size: 17px;
+    padding:3px;
+}

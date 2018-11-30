@@ -1,0 +1,45 @@
+
+<div class="form-group">
+  <label for="file"><mat-toolbar color="primary">Choose Excel File</mat-toolbar>
+  </label>
+  <div class="demo">
+  <input type="file"
+         id="file"
+         
+         (change)="incomingfile($event)" 
+         accept = ".xlsx" >&nbsp;
+  <div class="demo2">
+     
+      <button mat-flat-button color="primary" (click)="uploadFileToActivity()"  >Upload File</button>
+  </div>
+  </div>
+</div>
+<!-- <button type="button" class="btn btn-info" (click)="Upload()" >Reasdg</button> -->
+
+
+<h3 class="demo3"> {{ display }}</h3>    
+<h3 class="demo7">{{ display_data }}</h3>
+
+<table>
+  <tr>
+    <th>{{ shell01 }}</th>
+    <th>{{ shell02 }}</th>
+    <th>{{ shell03 }}</th>
+    <th>{{ shell04 }}</th>
+  </tr>
+  <tr>
+    <td>{{ shell11 }}</td>
+    <td>{{ shell12 }}</td>
+    <td>{{ shell13 }}</td>
+    <td>{{ shell14 }}</td>
+  </tr>
+  <tr>
+    <td>{{ shell21 }}</td>
+    <td>{{ shell22 }}</td>
+    <td>{{ shell23 }}</td>
+    <td>{{ shell24 }}</td>
+  </tr>
+  
+</table>
+
+
